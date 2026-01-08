@@ -1,0 +1,1 @@
+[{"uid":"d696509fc6696a9f","name":"failing test to see screenshot","time":{"start":1767858255950,"stop":1767858260253,"duration":4303},"status":"failed","severity":"critical"},{"uid":"a4696d49e6c398d5","name":"opens the kitchen sink page","time":{"start":1767858255333,"stop":1767858255923,"duration":590},"status":"passed","severity":"normal"}]

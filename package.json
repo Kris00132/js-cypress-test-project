@@ -1,0 +1,20 @@
+{
+  "name": "js-cypress-test-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "allure:generate": "allure generate allure-results -o allure-report --clean",
+    "allure:open": "allure open allure-report",
+    "test:allure": "npm run cypress:run && npm run allure:generate && npm run allure:open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "cypress": "^15.8.2"
+  }
+}
